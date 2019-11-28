@@ -6,9 +6,9 @@ cd DockerInstall
 
 ./install.sh
 
-cd ..
-
 echo Build Image
+
+cd HelloWorld
 
 docker build -t helloworld:v1 .
 
